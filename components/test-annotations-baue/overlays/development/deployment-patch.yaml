@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/susdas_quay_org/build-e2e-bqrj-tenant/build-suite-test-application-yqwx/test-annotations-baue@sha256:31192b00097980a409088bf43467b8f4a17493603154a14d14e3615c1cda2e59
+      - image: quay.io/susdas_quay_org/build-e2e-bqrj-tenant/build-suite-test-application-yqwx/test-annotations-baue@sha256:e459538ada9960ec7cb59bf05ce0436bf1528c042a5de20ef5eef65a10b0e2ad
         name: my-nginx
         resources: {}
 status: {}
