@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-baue
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/susdas_quay_org/build-e2e-bqrj-tenant/build-suite-test-application-yqwx/test-annotations-baue@sha256:31192b00097980a409088bf43467b8f4a17493603154a14d14e3615c1cda2e59
         name: my-nginx
         ports:
         - containerPort: 8080
