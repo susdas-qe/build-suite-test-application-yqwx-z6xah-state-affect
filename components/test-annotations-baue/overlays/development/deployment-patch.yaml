@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-baue
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-bqrj-tenant/build-suite-test-application-yqwx/test-annotations-baue@sha256:31192b00097980a409088bf43467b8f4a17493603154a14d14e3615c1cda2e59
+        name: my-nginx
+        resources: {}
+status: {}
